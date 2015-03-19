@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="exam.bitbyte" >
+
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:icon="@drawable/icon"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <service
+            android:name=".BareunmalKeypadService"
+            android:permission="android.permission.BIND_INPUT_METHOD" >
+            <intent-filter>
+                <action android:name="android.view.InputMethod" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+            <meta-data
+                android:name="android.view.im"
+                android:resource="@xml/method" />
+        </service>
+        <activity android:name="exam.bitbyte.activitys.SplashActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="exam.bitbyte.activitys.MainActivity"/>
+        <activity android:name="exam.bitbyte.activitys.TutorialActivity"/>
+        <activity android:name="exam.bitbyte.activitys.InputSetActivity"/>
+        <activity android:name="com.facebook.LoginActivity">
+            <meta-data android:value="@string/app_id" android:name="com.facebook.sdk.ApplicationId"/>
+        </activity>
+        <activity android:name="exam.bitbyte.activitys.FacebookActivity">
+            <meta-data android:value="@string/app_id" android:name="com.facebook.sdk.ApplicationId"/>
+        </activity>
+        <activity android:name="exam.bitbyte.activitys.SettingsActivity"></activity>
+        <activity android:name="exam.bitbyte.activitys.DbListActivity"></activity>
+        <activity
+            android:name="exam.bitbyte.activitys.DialogActivity"
+            android:theme="@android:style/Theme.DeviceDefault.Dialog"
+            ></activity>
+
+    </application>
+
+</manifest>

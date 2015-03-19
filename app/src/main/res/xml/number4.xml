@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Keyboard xmlns:android="http://schemas.android.com/apk/res/android"
+    android:keyWidth="12%p"
+    android:keyHeight="@dimen/keyheight"
+    >
+    <Row>
+        <Key android:codes="169" android:keyLabel="ⓒ" android:keyWidth="11%p"/>
+        <Key android:codes="174" android:keyLabel="®" android:keyWidth="12%p"/>
+        <Key android:codes="162" android:keyLabel="￠" android:keyWidth="13%p"/>
+        <Key android:codes="0xb6" android:keyLabel="¶" android:keyWidth="14%p"/>
+        <Key android:codes="0xd8" android:keyLabel="Ø" android:keyWidth="14%p"/>
+        <Key android:codes="0xa7" android:keyLabel="§" android:keyWidth="13%p"/>
+        <Key android:codes="0x2122" android:keyLabel="™" android:keyWidth="12%p"/>
+        <Key android:codes="0x2121" android:keyLabel="℡" android:keyWidth="11%p"/>
+    </Row>
+    
+    <Row>
+        <Key android:codes="177" android:keyLabel="±" android:keyWidth="11%p"/>
+        <Key android:codes="215" android:keyLabel="×" android:keyWidth="12%p"/>
+        <Key android:codes="247" android:keyLabel="÷" android:keyWidth="13%p"/>
+        <Key android:codes="0xb2" android:keyLabel="²" android:keyWidth="14%p"/>
+        <Key android:codes="176" android:keyLabel="°"  android:keyWidth="14%p"/>
+        <Key android:codes="0x2030" android:keyLabel="‰" android:keyWidth="13%p"/>
+        <Key android:codes="0x203b" android:keyLabel="※" android:keyWidth="12%p"/>
+        <Key android:codes="-12" android:keyLabel="Pg4" android:keyWidth="11%p"/>
+    </Row>
+    
+    <Row>
+        <Key android:codes="0x2103" android:keyLabel="℃" android:keyWidth="11%p"/>
+        <Key android:codes="0x2109" android:keyLabel="℉" android:keyWidth="12%p"/>
+        <Key android:codes="0x2113" android:keyLabel="ℓ" android:keyWidth="13%p"/>
+        <Key android:codes="0x2211" android:keyLabel="∑" android:keyWidth="14%p"/>
+        <Key android:codes="0x221e" android:keyLabel="∞" android:keyWidth="14%p"/>
+        <Key android:codes="0x2234" android:keyLabel="∴" android:keyWidth="13%p"/>
+        <Key android:codes="0x2235" android:keyLabel="∵" android:keyWidth="12%p"/>
+        <Key android:codes="0x2260" android:keyLabel="≠" android:keyWidth="11%p"/>
+    </Row>
+    
+    <Row android:rowEdgeFlags="bottom" android:keyWidth="15%p" android:keyHeight="@dimen/modekeyheight">
+        <Key android:codes="-10" android:keyLabel="편집" />
+        <Key android:codes="-2" android:keyLabel="한영" android:keyWidth="20%p"/>
+        <Key android:codes="-13" android:keyLabel="숫자"/>
+        <Key android:codes="-5" android:keyIcon="@drawable/sym_keyboard_delete" 
+            android:isRepeatable="true" />
+        <Key android:codes="32" android:keyWidth="20%p" android:keyIcon="@drawable/sym_keyboard_space" 
+            android:isRepeatable="true"/>
+        <Key android:codes="10" android:keyIcon="@drawable/sym_keyboard_return" />
+    </Row>
+</Keyboard>

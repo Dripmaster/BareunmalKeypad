@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="keyheight">56dp</dimen>
+    <dimen name="modekeyheight">50dp</dimen>
+    <dimen name="funkeyheight">24dp</dimen>
+</resources>

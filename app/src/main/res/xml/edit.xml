@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Keyboard xmlns:android="http://schemas.android.com/apk/res/android"
+    android:keyWidth="12%p"
+    android:keyHeight="@dimen/keyheight"
+    >
+    <Row>
+        <Key android:codes="-1001" android:keyLabel="ScL" android:keyWidth="11%p"/>
+        <Key android:codes="-1002" android:keyLabel="Pause" android:keyWidth="12%p"/>
+        <Key android:codes="-1003" android:keyLabel="RCtrl" android:keyWidth="13%p"/>
+        <Key android:codes="-1004" android:keyLabel="Cut" android:keyWidth="14%p"/>
+        <Key android:codes="-1005" android:keyLabel="Home" android:keyWidth="14%p"/>
+        <Key android:codes="-1006" android:keyLabel="↑" android:keyWidth="13%p"/>
+        <Key android:codes="-1007" android:keyLabel="PgUp" android:keyWidth="12%p"/>
+        <Key android:codes="-1008" android:keyLabel="Esc" android:keyWidth="11%p"/>
+    </Row>
+    
+    <Row>
+        <Key android:codes="-1009" android:keyLabel="CaL" android:keyWidth="11%p"/>
+        <Key android:codes="-1010" android:keyLabel="PrtSc" android:keyWidth="12%p"/>
+        <Key android:codes="-1011" android:keyLabel="RAlt" android:keyWidth="13%p"/>
+        <Key android:codes="-1012" android:keyLabel="Copy" android:keyWidth="14%p"/>
+        <Key android:codes="-1013" android:keyLabel="←" android:keyWidth="14%p"/>
+        <Key android:codes="-1014" android:keyLabel="↓" android:keyWidth="13%p"/>
+        <Key android:codes="-1015" android:keyLabel="→" android:keyWidth="12%p"/>
+        <Key android:codes="-1016" android:keyLabel="Tab" android:keyWidth="11%p"/>
+    </Row>
+    
+    <Row>
+        <Key android:codes="-1017" android:keyLabel="NuL" android:keyWidth="11%p"/>
+        <Key android:codes="-1018" android:keyLabel="Hanja" android:keyWidth="12%p"/>
+        <Key android:codes="-1019" android:keyLabel="Menu" android:keyWidth="13%p"/>
+        <Key android:codes="-1020" android:keyLabel="Paste" android:keyWidth="14%p"/>
+        <Key android:codes="-1021" android:keyLabel="End" android:keyWidth="14%p"/>
+        <Key android:codes="-1022" android:keyLabel="Del" android:keyWidth="13%p"/>
+        <Key android:codes="-1023" android:keyLabel="PgDn" android:keyWidth="12%p"/>
+        <Key android:codes="-1024" android:keyLabel="Ins" android:keyWidth="11%p"/>
+    </Row>
+    
+    <Row android:rowEdgeFlags="bottom" android:keyWidth="15%p" android:keyHeight="@dimen/modekeyheight">
+        <Key android:codes="-10" android:keyLabel="편집" />
+        <Key android:codes="-2" android:keyLabel="한영" android:keyWidth="20%p"/>
+        <Key android:codes="-13" android:keyLabel="숫자"/>
+        <Key android:codes="-5" android:keyIcon="@drawable/sym_keyboard_delete" 
+            android:isRepeatable="true" />
+        <Key android:codes="32" android:keyWidth="20%p" android:keyIcon="@drawable/sym_keyboard_space" 
+            android:isRepeatable="true"/>
+        <Key android:codes="10" android:keyIcon="@drawable/sym_keyboard_return" />
+    </Row>
+</Keyboard>

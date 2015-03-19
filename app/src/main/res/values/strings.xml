@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">바른말 키패드</string>
+  <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="history_1">욕설 입력시 진동</string>
+    <string name="history_2">욕설 자동 변환</string>
+    <string name="history_3">욕설 데이터 추가</string>
+    
+    <string name="title_1">욕설 입력시 진동</string>
+    <string name="title_2">욕설 자동 변환</string>
+    <string name="title_3">욕설 데이터 추가</string>
+<string name="hello">서형이 AND 진우 자요 우리는 밤샜는데 ㅠㅠ</string>
+<string name="app_id">823873040998862</string>
+</resources>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#187D90"
+    android:orientation="vertical" >
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="250dp"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/tutorial6_check"/>
+
+    <TextView
+        android:id="@+id/input_set_text1"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_marginTop="200dp"
+        android:gravity="center"
+        android:text="활성화 완료"
+        android:textColor="#fff"
+        android:textSize="15pt"/>
+
+    <TextView
+        android:id="@+id/input_set_text2"
+        android:layout_below="@id/input_set_text1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="뒤로가기를 눌러주세요!"
+        android:textColor="#fff"
+        android:textSize="12pt"/>
+
+</RelativeLayout>

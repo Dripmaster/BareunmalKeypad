@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="나의 현황"
+        android:gravity="center"
+        android:textColor="#fff"
+        android:textSize="10pt"
+        android:background="#054352"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_weight="1"
+        android:layout_marginTop="30dp">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left">
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/today"
+                android:textColor="@color/black"
+                android:layout_marginTop="5dp"
+                android:textSize="10pt"
+                android:gravity="center"
+                android:text="오늘"/>
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/todayCount"
+                android:textColor="@color/colorPrimary"
+                android:textSize="15pt"
+                android:gravity="center"
+                android:text="0"
+                android:layout_below="@id/today"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left">
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/month"
+                android:textColor="@color/black"
+                android:layout_marginTop="5dp"
+                android:textSize="10pt"
+                android:gravity="center"
+                android:text="12월"/>
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/monthCount"
+                android:textColor="@color/colorPrimary"
+                android:textSize="15pt"
+                android:gravity="center"
+                android:text="0"
+                android:layout_below="@id/month"/>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left">
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/total"
+                android:textColor="@color/black"
+                android:textSize="10pt"
+                android:layout_marginTop="5dp"
+                android:gravity="center"
+                android:text="총 누적"/>
+
+            <TextView
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/totalCount"
+                android:textColor="@color/colorPrimary"
+                android:textSize="15pt"
+                android:gravity="center"
+                android:text="0"
+                android:layout_below="@id/total"/>
+        </RelativeLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="4"
+        android:layout_margin="5dp">
+
+        <RelativeLayout
+            android:layout_marginTop="50dp"
+            android:layout_width="match_parent"
+            android:layout_height="250dp">
+            <ImageView
+                android:id="@+id/emoticon"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:src="@drawable/emoticon1"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/comment1"
+                android:textColor="@color/black"
+                android:textSize="15pt"
+                android:layout_marginTop="20dp"
+                android:gravity="center"
+                android:text="좋아요!"
+                android:layout_below="@id/emoticon"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/comment2"
+                android:textColor="@color/black"
+                android:textSize="10pt"
+                android:layout_marginTop="20dp"
+                android:gravity="center"
+                android:text="지금 이 상태를 계속 유지하세요!"
+                android:layout_below="@id/comment1"/>
+        </RelativeLayout>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Keyboard xmlns:android="http://schemas.android.com/apk/res/android"
+    android:keyWidth="12%p"
+    android:keyHeight="@dimen/keyheight"
+    >
+    <Row>
+        <Key android:codes="0x2190" android:keyLabel="←" android:keyWidth="11%p"/>
+        <Key android:codes="0x2191" android:keyLabel="↑" android:keyWidth="12%p"/>
+        <Key android:codes="0x2192" android:keyLabel="→" android:keyWidth="13%p"/>
+        <Key android:codes="0x2193" android:keyLabel="↓" android:keyWidth="14%p"/>
+        <Key android:codes="0x2194" android:keyLabel="↔" android:keyWidth="14%p"/>
+        <Key android:codes="0x2194" android:keyLabel="↕" android:keyWidth="13%p"/>
+        <Key android:codes="0x2605" android:keyLabel="★" android:keyWidth="12%p"/>
+        <Key android:codes="0x2606" android:keyLabel="☆" android:keyWidth="11%p"/>
+    </Row>
+    
+    <Row>
+        <Key android:codes="0x260e" android:keyLabel="☎" android:keyWidth="11%p"/>
+        <Key android:codes="0x261e" android:keyLabel="☞" android:keyWidth="12%p"/>
+        <Key android:codes="0x2660" android:keyLabel="♠" android:keyWidth="13%p"/>
+        <Key android:codes="0x2663" android:keyLabel="♣" android:keyWidth="14%p"/>
+        <Key android:codes="0x2665" android:keyLabel="♥" android:keyWidth="14%p"/>
+        <Key android:codes="0x2666" android:keyLabel="♦" android:keyWidth="13%p"/>
+        <Key android:codes="0x2668" android:keyLabel="♨" android:keyWidth="12%p"/>
+        <Key android:codes="-12" android:keyLabel="Pg3" android:keyWidth="11%p"/>
+    </Row>
+    
+    <Row>
+        <Key android:codes="0x2669" android:keyLabel="♩" android:keyWidth="11%p"/>
+        <Key android:codes="0x266a" android:keyLabel="♪" android:keyWidth="12%p"/>
+        <Key android:codes="0x2588" android:keyLabel="█" android:keyWidth="13%p"/>
+        <Key android:codes="0x25a0" android:keyLabel="■" android:keyWidth="14%p"/>
+        <Key android:codes="0x25b6" android:keyLabel="▶" android:keyWidth="14%p"/>
+        <Key android:codes="0x25cf" android:keyLabel="●" android:keyWidth="13%p"/>
+        <Key android:codes="0x25ce" android:keyLabel="◎" android:keyWidth="12%p"/>
+        <Key android:codes="0x25a3" android:keyLabel="▣" android:keyWidth="11%p"/>
+    </Row>
+    
+    <Row android:rowEdgeFlags="bottom" android:keyWidth="15%p" android:keyHeight="@dimen/modekeyheight">
+        <Key android:codes="-10" android:keyLabel="편집" />
+        <Key android:codes="-2" android:keyLabel="한영" android:keyWidth="20%p"/>
+        <Key android:codes="-13" android:keyLabel="숫자"/>
+        <Key android:codes="-5" android:keyIcon="@drawable/sym_keyboard_delete" 
+            android:isRepeatable="true" />
+        <Key android:codes="32" android:keyWidth="20%p" android:keyIcon="@drawable/sym_keyboard_space" 
+            android:isRepeatable="true"/>
+        <Key android:codes="10" android:keyIcon="@drawable/sym_keyboard_return" />
+    </Row>
+</Keyboard>
